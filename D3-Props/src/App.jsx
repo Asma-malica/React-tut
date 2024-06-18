@@ -6,7 +6,7 @@ function App() {
   }
 
   return (
-      
+    
       <User
       // nameoftheperson = {userData.name}
       // phonenumoftheperson = {userData.phone}
