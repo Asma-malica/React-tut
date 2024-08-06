@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Parentusingcontext from './Parentusingcontext'; 
 
 const App = () => {
   return (
-    <div>App</div>
-    
-  )
+    <div>
+      {/* <Parentusinglocal/> */}
+      <Parentusingcontext />
+    </div>
+  );
 }
 
-export default App
+export default App;
